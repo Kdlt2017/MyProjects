@@ -1,6 +1,6 @@
 **********************************KDLT*************************************
 
-I plead with anybody consult this Solution Template to follow these instructions
+I plead with anybody consulting this Template to follow these instructions
 
 1- Make sure you Enable-Migrations once your launch the solution on visual studio
 (This is done from the PackageManager commandLine)
