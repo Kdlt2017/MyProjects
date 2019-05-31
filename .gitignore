@@ -1,1 +1,17 @@
 #This file serves to ignore files i don't want to keep track of
+\MyProjects\DotNet\Correction_ExamenDotNetINFOB_2018_2019\ExamInfoB\ExamInfoB.Service\bin
+\MyProjects\DotNet\Correction_ExamenDotNetINFOB_2018_2019\ExamInfoB\ExamInfoB.Service\obj
+\MyProjects\DotNet\Correction_ExamenDotNetINFOB_2018_2019\ExamInfoB\ExamInfoB.Presentation\bin
+\MyProjects\DotNet\Correction_ExamenDotNetINFOB_2018_2019\ExamInfoB\ExamInfoB.Presentation\obj
+\MyProjects\DotNet\Correction_ExamenDotNetINFOB_2018_2019\ExamInfoB\ExamInfoB.Domain\bin
+\MyProjects\DotNet\Correction_ExamenDotNetINFOB_2018_2019\ExamInfoB\ExamInfoB.Domain\obj
+\MyProjects\DotNet\Correction_ExamenDotNetINFOB_2018_2019\ExamInfoB\ExamInfoB.Data\bin
+\MyProjects\DotNet\Correction_ExamenDotNetINFOB_2018_2019\ExamInfoB\ExamInfoB.Data\obj
+\MyProjects\DotNet\TemplateForDotNetProject\ExamenFinal\ExamenFinal.Data\bin
+\MyProjects\DotNet\TemplateForDotNetProject\ExamenFinal\ExamenFinal.Data\obj
+\MyProjects\DotNet\TemplateForDotNetProject\ExamenFinal\ExamenFinal.Domain\bin
+\MyProjects\DotNet\TemplateForDotNetProject\ExamenFinal\ExamenFinal.Domain\obj
+\MyProjects\DotNet\TemplateForDotNetProject\ExamenFinal\ExamenFinal.Service\bin
+\MyProjects\DotNet\TemplateForDotNetProject\ExamenFinal\ExamenFinal.Service\obj
+\MyProjects\DotNet\TemplateForDotNetProject\ExamenFinal\ExamenFinal.Web\bin
+\MyProjects\DotNet\TemplateForDotNetProject\ExamenFinal\ExamenFinal.Web\obj
