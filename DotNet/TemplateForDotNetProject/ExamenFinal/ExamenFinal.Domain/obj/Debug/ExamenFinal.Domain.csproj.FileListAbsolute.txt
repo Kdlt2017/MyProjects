@@ -1,0 +1,10 @@
+c:\users\pc\documents\visual studio 2015\Projects\ExamenFinal\ExamenFinal.Domain\bin\Debug\ExamenFinal.Domain.dll.config
+c:\users\pc\documents\visual studio 2015\Projects\ExamenFinal\ExamenFinal.Domain\bin\Debug\ExamenFinal.Domain.dll
+c:\users\pc\documents\visual studio 2015\Projects\ExamenFinal\ExamenFinal.Domain\bin\Debug\ExamenFinal.Domain.pdb
+c:\users\pc\documents\visual studio 2015\Projects\ExamenFinal\ExamenFinal.Domain\bin\Debug\EntityFramework.dll
+c:\users\pc\documents\visual studio 2015\Projects\ExamenFinal\ExamenFinal.Domain\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\pc\documents\visual studio 2015\Projects\ExamenFinal\ExamenFinal.Domain\bin\Debug\EntityFramework.xml
+c:\users\pc\documents\visual studio 2015\Projects\ExamenFinal\ExamenFinal.Domain\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\pc\documents\visual studio 2015\Projects\ExamenFinal\ExamenFinal.Domain\obj\Debug\ExamenFinal.Domain.csprojResolveAssemblyReference.cache
+c:\users\pc\documents\visual studio 2015\Projects\ExamenFinal\ExamenFinal.Domain\obj\Debug\ExamenFinal.Domain.dll
+c:\users\pc\documents\visual studio 2015\Projects\ExamenFinal\ExamenFinal.Domain\obj\Debug\ExamenFinal.Domain.pdb

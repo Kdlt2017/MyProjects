@@ -1,0 +1,12 @@
+c:\users\pc\documents\visual studio 2015\Projects\ExamenFinal\ExamenFinal.Data\bin\Debug\ExamenFinal.Data.dll.config
+c:\users\pc\documents\visual studio 2015\Projects\ExamenFinal\ExamenFinal.Data\bin\Debug\ExamenFinal.Data.dll
+c:\users\pc\documents\visual studio 2015\Projects\ExamenFinal\ExamenFinal.Data\bin\Debug\ExamenFinal.Data.pdb
+c:\users\pc\documents\visual studio 2015\Projects\ExamenFinal\ExamenFinal.Data\bin\Debug\EntityFramework.dll
+c:\users\pc\documents\visual studio 2015\Projects\ExamenFinal\ExamenFinal.Data\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\pc\documents\visual studio 2015\Projects\ExamenFinal\ExamenFinal.Data\bin\Debug\ExamenFinal.Domain.dll
+c:\users\pc\documents\visual studio 2015\Projects\ExamenFinal\ExamenFinal.Data\bin\Debug\ExamenFinal.Domain.pdb
+c:\users\pc\documents\visual studio 2015\Projects\ExamenFinal\ExamenFinal.Data\bin\Debug\EntityFramework.xml
+c:\users\pc\documents\visual studio 2015\Projects\ExamenFinal\ExamenFinal.Data\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\pc\documents\visual studio 2015\Projects\ExamenFinal\ExamenFinal.Data\obj\Debug\ExamenFinal.Data.csprojResolveAssemblyReference.cache
+c:\users\pc\documents\visual studio 2015\Projects\ExamenFinal\ExamenFinal.Data\obj\Debug\ExamenFinal.Data.dll
+c:\users\pc\documents\visual studio 2015\Projects\ExamenFinal\ExamenFinal.Data\obj\Debug\ExamenFinal.Data.pdb

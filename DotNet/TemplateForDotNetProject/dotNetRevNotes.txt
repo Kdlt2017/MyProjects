@@ -1,0 +1,85 @@
+  <connectionStrings>
+    <add name="MaChaine"
+         connectionString="Data Source=(localdb)\MSSQLLocalDB;
+         Initial Catalog=MyDatabase2;
+         Integrated Security=True"
+         providerName="System.Data.SqlClient" />
+  </connectionStrings>
+  
+  ClassContext:
+  :DbContext
+  ctor:base("name=MaChaine")
+  prop DbSet<(Name of entity)>
+   protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            modelBuilder.Configurations.Add((Configuration class));
+            modelBuilder.Conventions.Add((Convention class));
+        }
+		
+		ClassConvention:
+		:Convention
+		ctor{
+		Properties().Where(p => p.Name.StartsWith("Id")).Configure(p => p.IsKey());
+		Properties<DateTime>().Configure(p => p.HasColumnType("datetime2"));
+                
+		}
+		
+		ClassConfiguration:
+		:EntityTypeConfiguration<(Name of Entity)>
+		ctor{
+		HasRequired(S => S.comptes).WithRequiredPrincipal(Ad => Ad.Carte); //One-To-One (typed to CarteBancaire)
+		HasOptional(S => S.Carte).WithRequired(AD => AD.compte);  //One-To-Zero(typed to Compte)
+		HasRequired<Agence>(s => s.Agence).WithMany(s => s.comptes).HasForeignKey(s => s.CompteId);//One-To-Many (typed to Compte)
+		HasMany<Compte>(s => s.comptes).WithRequired(s => s.Agence).HasForeignKey(s => s.CompteId);  //Many-To-One (typed Agence)
+		HasMany(product => product.Providers).WithMany(provider => provider.Products)
+                .Map(m=> {
+                    m.ToTable("Providings");
+                    m.MapLeftKey("Provider");
+                    m.MapRightKey("Product");//Always the current Class
+                          }
+                    );//Many-To-Many (typed to Product)
+					
+					    //Inheritance Configuration(TPH:Table Per Hierachy)
+            Map<Biological>(m => m.Requires("IsBiological").HasValue(1));//Requires changes the name of the discriminator column
+            Map<Chemical>(m => m.Requires("IsBiological").HasValue(0));  //(Chemical and Biological inherit from Product)
+                    
+                    
+                
+
+		}
+		
+		Personalizing View
+		@using (Html.BeginForm())
+		{
+			<table>
+				<tr>
+					<td>
+						<div>
+							Search by genre: @Html.TextBox("searchString")
+						</div>
+					</td>
+					<td>
+						<input type="submit" value="Search" id="submit" />
+					</td>
+				</tr>
+			</table>
+		}
+		
+		//For EnumerationView as dropdown
+		<div class="form-group">
+            @Html.LabelFor(model => model.ProductType, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EnumDropDownListFor(model => model.ProductType)
+                @Html.ValidationMessageFor(model => model.ProductType, "", new { @class = "text-danger" })
+            </div>
+			
+			//For SelectList dropdown from database
+			//First modify the controler as follows:
+			var ListCat = CatService.ListAllCategories();
+            ViewBag.MyCategories = new SelectList(ListCat, "CategoryId", "Name");
+			<div class="form-group">
+                @Html.LabelFor(model => model.CategoryId, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.DropDownListFor(model => model.CategoryId,(SelectList)ViewData["Categories"])
+                    @Html.ValidationMessageFor(model => model.CategoryId, "", new { @class = "text-danger" })
+                </div>
