@@ -1,0 +1,4 @@
+C:\Users\pc\documents\visual studio 2015\Projects\ExamInfoB\ExamInfoB.Domain\bin\Debug\ExamInfoB.Domain.dll
+C:\Users\pc\documents\visual studio 2015\Projects\ExamInfoB\ExamInfoB.Domain\bin\Debug\ExamInfoB.Domain.pdb
+C:\Users\pc\documents\visual studio 2015\Projects\ExamInfoB\ExamInfoB.Domain\obj\Debug\ExamInfoB.Domain.dll
+C:\Users\pc\documents\visual studio 2015\Projects\ExamInfoB\ExamInfoB.Domain\obj\Debug\ExamInfoB.Domain.pdb

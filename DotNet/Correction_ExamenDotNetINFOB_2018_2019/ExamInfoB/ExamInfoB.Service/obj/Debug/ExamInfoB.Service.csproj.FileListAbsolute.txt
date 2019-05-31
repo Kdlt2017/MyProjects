@@ -1,0 +1,9 @@
+C:\Users\pc\documents\visual studio 2015\Projects\ExamInfoB\ExamInfoB.Service\bin\Debug\ExamInfoB.Service.dll
+C:\Users\pc\documents\visual studio 2015\Projects\ExamInfoB\ExamInfoB.Service\bin\Debug\ExamInfoB.Service.pdb
+C:\Users\pc\documents\visual studio 2015\Projects\ExamInfoB\ExamInfoB.Service\bin\Debug\ExamInfoB.Data.dll
+C:\Users\pc\documents\visual studio 2015\Projects\ExamInfoB\ExamInfoB.Service\bin\Debug\ExamInfoB.Domain.dll
+C:\Users\pc\documents\visual studio 2015\Projects\ExamInfoB\ExamInfoB.Service\bin\Debug\ExamInfoB.Data.pdb
+C:\Users\pc\documents\visual studio 2015\Projects\ExamInfoB\ExamInfoB.Service\bin\Debug\ExamInfoB.Domain.pdb
+C:\Users\pc\documents\visual studio 2015\Projects\ExamInfoB\ExamInfoB.Service\obj\Debug\ExamInfoB.Service.csprojResolveAssemblyReference.cache
+C:\Users\pc\documents\visual studio 2015\Projects\ExamInfoB\ExamInfoB.Service\obj\Debug\ExamInfoB.Service.dll
+C:\Users\pc\documents\visual studio 2015\Projects\ExamInfoB\ExamInfoB.Service\obj\Debug\ExamInfoB.Service.pdb

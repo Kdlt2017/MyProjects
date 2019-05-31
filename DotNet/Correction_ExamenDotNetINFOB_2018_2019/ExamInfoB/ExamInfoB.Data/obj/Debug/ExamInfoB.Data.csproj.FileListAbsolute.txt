@@ -1,0 +1,14 @@
+C:\Users\pc\documents\visual studio 2015\Projects\ExamInfoB\ExamInfoB.Data\bin\Debug\ExamInfoB.Data.dll.config
+C:\Users\pc\documents\visual studio 2015\Projects\ExamInfoB\ExamInfoB.Data\bin\Debug\ExamInfoB.Data.dll
+C:\Users\pc\documents\visual studio 2015\Projects\ExamInfoB\ExamInfoB.Data\bin\Debug\ExamInfoB.Data.pdb
+C:\Users\pc\documents\visual studio 2015\Projects\ExamInfoB\ExamInfoB.Data\bin\Debug\EntityFramework.dll
+C:\Users\pc\documents\visual studio 2015\Projects\ExamInfoB\ExamInfoB.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\pc\documents\visual studio 2015\Projects\ExamInfoB\ExamInfoB.Data\bin\Debug\ExamInfoB.Domain.dll
+C:\Users\pc\documents\visual studio 2015\Projects\ExamInfoB\ExamInfoB.Data\bin\Debug\ExamInfoB.Domain.pdb
+C:\Users\pc\documents\visual studio 2015\Projects\ExamInfoB\ExamInfoB.Data\bin\Debug\EntityFramework.xml
+C:\Users\pc\documents\visual studio 2015\Projects\ExamInfoB\ExamInfoB.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\pc\documents\visual studio 2015\Projects\ExamInfoB\ExamInfoB.Data\obj\Debug\ExamInfoB.Data.csprojResolveAssemblyReference.cache
+C:\Users\pc\documents\visual studio 2015\Projects\ExamInfoB\ExamInfoB.Data\obj\Debug\ExamInfoB.Data.Migrations.EntityPrep.resources
+C:\Users\pc\documents\visual studio 2015\Projects\ExamInfoB\ExamInfoB.Data\obj\Debug\ExamInfoB.Data.csproj.GenerateResource.Cache
+C:\Users\pc\documents\visual studio 2015\Projects\ExamInfoB\ExamInfoB.Data\obj\Debug\ExamInfoB.Data.dll
+C:\Users\pc\documents\visual studio 2015\Projects\ExamInfoB\ExamInfoB.Data\obj\Debug\ExamInfoB.Data.pdb
