@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://xmlns.jcp.org/jsf/html"
+                xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+                xmlns:p="http://primefaces.org/ui"
+                xmlns:f="http://xmlns.jcp.org/jsf/core"
+                template="/../../template.xhtml">
+    <ui:param name="page_name" value="ADMIN"/>
+    <ui:define name="content">
+
+        <h:body style="background-color: #009999">
+            <div class="container-fluid" >
+                <div class="row">
+
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4" style="margin-top: 200px;">
+                        <h:form style=" ">
+                            <div class="form-group">
+                                <p:outputLabel value="Login"/>
+                                <p:inputText  placeholder="Name" class="form-control"/>
+                            </div>
+                            <div class="form-group">
+                                <p:outputLabel value="Password" />
+                                <p:inputText  placeholder="Pass" class="form-control"/>
+                            </div>
+                            <div>
+                                <p:commandButton value="Login" style="width: 50%" class="btn btn-success btn-lg active"/>
+                            </div>
+                        </h:form>
+                    </div>
+                    <div class="col-md-4"></div>
+                </div>
+
+            </div>
+        </h:body>
+    </ui:define>
+</ui:composition>
