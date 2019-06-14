@@ -19,3 +19,5 @@
 /Summer2018-2019/RankMe/RankMe-ejb/target
 /Summer2018-2019/RankMe/RankMe-web/target
 /Summer2018-2019/RankMeClient/target
+*.exe
+*.dll
